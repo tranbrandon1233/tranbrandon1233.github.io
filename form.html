@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <!--
+   Final Lab
+   
+   Author: Brandon Tran
+   Date:   06/11/2021 
+   Filename: form.html
+   -->
+   <meta charset="utf-8" />
+   <title>Survey</title>
+   <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <h1>Survey Questions</h1>
+ 
+       <form action="submit-survey.php" method="post">
+           <ol type="1">
+              <li>
+                 How would you rate the tribute page?
+                 <ol type="a">
+                    <li>
+                       <input type="radio" name="q1" id="qla" value="a" /> Great</input>
+                    </li>
+                    <li>
+                     <input type="radio" name="q1" id="qlb" value="b" /> Good</input>
+                 </li>
+                    <li>
+                     <input type="radio" name="q1" id="qlc" value="c" /> Bad</input>
+                 </li>
+                    <li>
+                     <input type="radio" name="q1" id="qld" value="d" /> Terrible</input>
+                 </li>
+                 </ol>
+                 <br>
+              </li>
+              <li>
+                 How would you rate the information presented in the tribute page?
+                 <ol type="a">
+                    <li>
+                        <input type="radio" name="q1" id="qla" value="a" /> Great</input>
+                    </li>
+                    <li>
+                     <input type="radio" name="q1" id="qlb" value="b" /> Good</input>
+                 </li>
+                    <li>
+                     <input type="radio" name="q1" id="qlc" value="c" /> Bad</input>
+                 </li>
+                    <li>
+                     <input type="radio" name="q1" id="qld" value="d" /> Terrible</input>
+                    </li>
+                 </ol>
+              </li>
+              <br>
+              <li>
+                 How would you rate the layout of the tribute page?
+                 <ol type="a">
+                    <li>
+                        <input type="radio" name="q1" id="qla" value="a" /> Great</input>
+                    </li>
+                    <li>
+                     <input type="radio" name="q1" id="qlb" value="b" /> Good</input>
+                 </li>
+                    <li>
+                     <input type="radio" name="q1" id="qlc" value="c" /> Bad</input>
+                 </li>
+                    <li>
+                     <input type="radio" name="q1" id="qld" value="d" /> Terrible</input>
+                    </li>
+                 </ol>
+              </li>
+              <br>
+              <li>
+                 How likely are you to recommend the tribute page  to your friends?
+                 <div id="newRow">
+                     very likely <input type="range" min="0" max="10" value="5" step="1" name="q4" /> very likely
+                 </div>
+              </li>
+              <br>
+              <li>
+                <label for="q5text">Provide any suggestions for tribute page:</label>
+                <br>
+                <textarea name="q5" id="q5text" placeholder="enter your suggestions here"></textarea>
+              </li>
+           </ol>
+       </form>
+ 
+ 
+ </body>
+ </html>
